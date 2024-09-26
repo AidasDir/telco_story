@@ -511,7 +511,7 @@ sudo docker run -it --privileged --user root --cap-add ALL  -v /dev/bus/usb:/dev
 ```
 Launch 2nd
 ```bash
-sudo docker run -it --privileged --user root --cap-add ALL  -v /dev/bus/usb:/dev/bus/usb bastienbaranoff/bts-final:hell_yeah
+sudo docker run -it --privileged --user root --cap-add ALL  -v /dev/bus/usb:/dev/bus/usb bastienbaranoff/evil_bts.sh:latest
 ```
 
 In this order cause need ip 172.17.0.2 for ms and 172.17.0.3 for bts (socket are made to work with theses addresses)
