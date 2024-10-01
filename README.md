@@ -537,6 +537,12 @@ and in /root/.osmocom/bb/mobile.cfg
 and set any ki but set one in OpenBSC
 need a motorola c1** and a sim reader
 
+In order to configure a subscriber for COMP128v1 and to set his Ki, you can use the following VTY command from the enable node:
+
+Configuring a subscriber for COMP128v1 and setting Ki
+OpenBSC# subscriber extension 2342 a3a8 comp128v1 000102030405060708090a0b0c0d0e0f
+
+
 What happen next ?
 
 [Crack A5/1](https://brmlab.cz/project/gsm/deka/attack-implementation)
